@@ -19,12 +19,12 @@ Sample_Multiplication.xlsx shows what the Excel spreadsheet looks like once gene
 2. Microsoft Excel.
 
 ## Usage
-1. Copy script to a location on your computer. 
-2. Right click the script once downloaded click Properties.
+1. Copy Create-Sums.ps1 to a location on your computer. 
+2. Right click Create-Sums.ps1 once downloaded click Properties.
 3. You should already be on the General Tab, if not click the General tab.
 4. At the bottom unselect Unblock and click OK.
 5. If you don't see this setting then you are good to proceed.
-6. Right click the script and select Run With PowerShell. (If you are prompted with a message click Y).
+6. Right click Create-Sums.ps1 and select Run With PowerShell. (If you are prompted with a message click Y).
 7. The Excel workbook should now be open.
 8. If not click Start and type PowerShell.
 9. Right click PowerShell and select Run As Administrator.
