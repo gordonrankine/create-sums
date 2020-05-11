@@ -31,12 +31,12 @@ Instructions provided in the Usage section below.
 
 ### Downloading and using the script
 
-1. Copy Create-Sums.ps1 to a location on your computer. 
-2. Right click Create-Sums.ps1 once downloaded click Properties.
+1. Copy Create-MultiplicationSums.ps1 to a location on your computer. 
+2. Right click Create-MultiplicationSums.ps1 once downloaded click Properties.
 3. You should already be on the General Tab, if not click the General tab.
 4. At the bottom unselect Unblock and click OK.
 5. If you don't see this setting then you are good to proceed.
-6. Right click Create-Sums.ps1 and select Run With PowerShell. (If you are prompted with a message click Y).
+6. Right click Create-MultiplicationSums.ps1 and select Run With PowerShell. (If you are prompted with a message click Y).
 7. The Excel workbook should now be open.
 8. If not click Start and type PowerShell.
 9. Right click PowerShell and select Run As Administrator.
@@ -52,8 +52,8 @@ Instructions provided in the Usage section below.
 
 ### Customising the script
 
-1. These steps assume you have downloaded the Create-Sums.ps1 to your computer.
-2. Right click Create-Sums.ps1 and click Edit. This will open PowerShell ISE.
+1. These steps assume you have downloaded the Create-MultiplicationSums.ps1 to your computer.
+2. Right click Create-MultiplicationSums.ps1 and click Edit. This will open PowerShell ISE.
 3. To change the first set of numbers look at line 2. $n1 = 4..8
   - Replace 4 and 8 with the new numbers you want in the first column.
   - For example, if you want these numbers to be 1 to 10 change the line to read $n1 = 1..10
@@ -78,7 +78,7 @@ Instructions provided in the Usage section below.
   
 ## Future Updates
 
-- Add in Addition, Subtraction and Division. 
+- No updates planned.
 
 ## Feedback
 
