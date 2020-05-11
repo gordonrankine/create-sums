@@ -56,7 +56,7 @@ $y = 3
     $worksheet.Cells.Item($y,5).HorizontalAlignment = -4108
     $worksheet.Cells.Item($y,6).ColumnWidth = 13
     $worksheet.Cells.Item($y,6).HorizontalAlignment = -4108
-    $worksheet.Cells.Item($y,6) = "=IF(E$($i)=`"`",`"Please answer`",IF(E$($i)<>G$($i),`"Wrong`",`"Correct`"))"
+    $worksheet.Cells.Item($y,6) = "=IF(E$($y)=`"`",`"Please answer`",IF(E$($y)<>G$($y),`"Wrong`",`"Correct`"))"
     $worksheet.Cells.Item($y,7).HorizontalAlignment = -4108
     # https://analysistabs.com/excel-vba/colorindex/
     $worksheet.Cells.Item($y,7).Font.ColorIndex = 2
